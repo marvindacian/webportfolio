@@ -72,29 +72,29 @@ html {
 	background: whitesmoke;
 }
 
-
+/*making the elements appears as block*/
 #educbg > p {
 white-space: pre;
 }
-
 
 #expe > p {
  white-space: pre;
 }
 
+/*dividing the columns of educ and hobbies section*/
 .row {  
-	border-top: 40px;
+  padding-top: 80px;
   display: flex;
   flex-wrap: wrap;}
 
 .leftcontainer {
-	flex: 70%;
-	
-	
+	flex: 50%;
+	padding: 90px;
 }
 
 .rightcontainer {
-	flex: 30%;
-	
+	flex: 50%;
+	padding: 60px;
 	
 }
+
