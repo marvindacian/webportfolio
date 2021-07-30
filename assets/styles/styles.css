@@ -8,6 +8,17 @@ body {
   	position: relative;
 }
 
+/*smooth scroll-behavior*/
+html {
+	scroll-behavior: smooth;
+}
+
+/*Space on top of picture*/
+#home {
+	padding-top: 150px;
+}
+
+
 /*Space on top of name*/
 .container-fluid > .text-center {
 
@@ -21,10 +32,7 @@ body {
 	font-size: xxx-large;
 }
 
-/*smooth scroll-behavior*/
-html {
-	scroll-behavior: smooth;
-}
+
 
 .text-center > .occupation  {
 	/*padding-top: 20px;*/
@@ -42,10 +50,11 @@ html {
 	font-family: monospace;
 }
 
-/*#homeb:hover {
-	background: red;*/
-/*}
-hover effects on navbar buttons*/
+#homeb > a:hover, #homeb > a:focus  {
+	opacity: 1.0;
+}
+
+/*hover effects on navbar buttons*/
 #aboutb:hover {
 	background: gray;
 	}
@@ -58,6 +67,34 @@ hover effects on navbar buttons*/
 	background: gray;
 	}
 
-#aboutb, #werkb, #contactb {
+#aboutb, #werkb, #contactb, #homeb {
 	color: black;
+	background: whitesmoke;
+}
+
+
+#educbg > p {
+white-space: pre;
+}
+
+
+#expe > p {
+ white-space: pre;
+}
+
+.row {  
+	border-top: 40px;
+  display: flex;
+  flex-wrap: wrap;}
+
+.leftcontainer {
+	flex: 70%;
+	
+	
+}
+
+.rightcontainer {
+	flex: 30%;
+	
+	
 }
