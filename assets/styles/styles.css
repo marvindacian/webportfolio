@@ -1,22 +1,30 @@
+
+/*Adding background-image*/
 body {
 	background-image: url('https://images.pexels.com/photos/1420701/pexels-photo-1420701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
+  	position: relative;
 }
 
+/*Space on top of name*/
 .container-fluid > .text-center {
 
 	padding-top: 70px;
 }
 
+/*Changing font family and Size*/
 .text-center > .first-name {
 	padding-top: 40px;
 	font-family: 'Palette Mosaic', cursive;
 	font-size: xxx-large;
 }
 
-
+/*smooth scroll-behavior*/
+html {
+	scroll-behavior: smooth;
+}
 
 .text-center > .occupation  {
 	/*padding-top: 20px;*/
@@ -24,3 +32,24 @@ body {
 	font-size: xx-large;
 }
 
+/*Make name bigger on hover*/
+#name:hover {
+	font-size: 550%;
+}
+
+/*Change font of description on hover*/
+#devel:hover {
+	font-family: monospace;
+}
+
+/*#homeb:hover {
+	background: red;*/
+/*}
+hover effects on navbar buttons*/
+#aboutb:hover, #workb:hover, #contactb:hover {
+	background: gray;
+	}
+
+#aboutb, #workb, #contactb {
+	color: black;
+}
