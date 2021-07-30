@@ -46,10 +46,18 @@ html {
 	background: red;*/
 /*}
 hover effects on navbar buttons*/
-#aboutb:hover, #workb:hover, #contactb:hover {
+#aboutb:hover {
 	background: gray;
 	}
 
-#aboutb, #workb, #contactb {
+#werkb:hover {
+	background: gray;
+	}
+
+#contactb:hover {
+	background: gray;
+	}
+
+#aboutb, #werkb, #contactb {
 	color: black;
 }
