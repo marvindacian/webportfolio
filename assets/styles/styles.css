@@ -88,13 +88,27 @@ white-space: pre;
   flex-wrap: wrap;}
 
 .leftcontainer {
-	flex: 50%;
+	flex: 70%;
 	padding: 90px;
 }
 
 .rightcontainer {
-	flex: 50%;
+	flex: 30%;
 	padding: 60px;
 	
 }
 
+.row1 {  
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;}
+
+.aboutm {
+	flex: 20%;
+	flex-wrap: wrap;
+	}
+
+
+.card-deck {
+	text-align: center;
+}
