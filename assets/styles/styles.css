@@ -6,6 +6,7 @@ body {
   	background-attachment: fixed;
   	background-size: cover;
   	position: relative;
+
 }
 
 /*smooth scroll-behavior*/
@@ -19,6 +20,9 @@ html {
 }
 
 
+#homeb {
+	opacity: 0.5;
+}
 /*Space on top of name*/
 .container-fluid > .text-center {
 
@@ -111,4 +115,44 @@ white-space: pre;
 
 .card-deck {
 	text-align: center;
+}
+
+/*hover on tools*/
+
+.container, .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container10, .container11, .container12, .container13 {
+  position: relative;
+  width: 50%;
+}
+
+.image, .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay, .overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8, .overlay9, .overlay10, .overlay11, .overlay12, .overlay13 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay, .container1:hover .overlay1, .container2:hover .overlay2, .container3:hover .overlay3, .container4:hover .overlay4, .container5:hover .overlay5, .container6:hover .overlay6, .container7:hover .overlay7, .container8:hover .overlay8, .container9:hover .overlay9, .container10:hover .overlay10, .container11:hover .overlay11, .container12:hover .overlay12, .container13:hover .overlay13 {
+  opacity: 1;
+}
+
+.text, .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
