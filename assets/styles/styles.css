@@ -9,6 +9,13 @@ body {
 
 }
 
+
+body {
+	border: 0px;
+	padding: 0px;
+
+}
+
 /*smooth scroll-behavior*/
 html {
 	scroll-behavior: smooth;
@@ -19,9 +26,13 @@ html {
 	padding-top: 150px;
 }
 
+#aboutb, #werkb, #contactb {
+font-weight: bolder;
 
+
+}
 #homeb {
-	opacity: 0.5;
+	opacity: 0.7;
 }
 /*Space on top of name*/
 .container-fluid > .text-center {
@@ -76,7 +87,7 @@ html {
 	background: whitesmoke;
 }
 
-/*making the elements appears as block*/
+/*making the elements appear as block*/
 #educbg > p {
 white-space: pre;
 }
@@ -155,4 +166,49 @@ white-space: pre;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+#proj > div img {
+	border: 20px solid #555;
+}
+
+#proj {
+	border-bottom: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;}
+
+  .fa-linkedin {
+  background: blue;
+  color: white;}
+
+  .fa-reddit {
+  background: orangered;
+  color: white;}
+
+  .fa-twitter {
+  background: turquoise;
+  color: white;
+}
+
+footer {
+	padding-top: 80px;
+
 }
