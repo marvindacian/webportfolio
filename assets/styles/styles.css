@@ -21,6 +21,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*Space on top of picture*/
 #home {
 	padding-top: 150px;
@@ -28,6 +33,7 @@ html {
 
 #aboutb, #werkb, #contactb {
 font-weight: bolder;
+font-family: 'Press Start 2P', cursive;
 
 
 }
@@ -43,7 +49,7 @@ font-weight: bolder;
 /*Changing font family and Size*/
 .text-center > .first-name {
 	padding-top: 40px;
-	font-family: 'Palette Mosaic', cursive;
+	font-family: 'Press Start 2P', cursive;
 	font-size: xxx-large;
 }
 
@@ -51,8 +57,18 @@ font-weight: bolder;
 
 .text-center > .occupation  {
 	/*padding-top: 20px;*/
-	font-family: 'Palette Mosaic', cursive;
-	font-size: xx-large;
+	font-family: 'Press Start 2P', cursive;
+	font-size: x-large;
+}
+
+.aboutm {
+	padding: 80px;
+	border: 100px;
+	font-size: x-large;
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+	background-color: ghostwhite;
+	opacity: 0.6;
 }
 
 /*Make name bigger on hover*/
@@ -62,7 +78,7 @@ font-weight: bolder;
 
 /*Change font of description on hover*/
 #devel:hover {
-	font-family: monospace;
+	font-family: 'Faster One', cursive;
 }
 
 #homeb > a:hover, #homeb > a:focus  {
@@ -87,12 +103,33 @@ font-weight: bolder;
 	background: whitesmoke;
 }
 
-/*making the elements appear as block*/
-#educbg > p {
-white-space: pre;
+#skillshead, #hozhead {
+	padding-bottom: 30px;
 }
 
-#expe > p {
+#skills, #educbg{
+	border-bottom: 40px;
+	padding-bottom: 50px;
+}
+
+.row {
+	font-family: 'Press Start 2P', cursive;
+	word-wrap: break-word;
+}
+
+#work, #projlabel {
+	font-family: 'Press Start 2P', cursive;
+	font-size: xxx-large;
+
+}
+
+/*making the elements appear as block*/
+#desc1 > p {
+white-space: pre;
+text-align: left;
+}
+
+#desc2 > p {
  white-space: pre;
 }
 
@@ -104,7 +141,7 @@ white-space: pre;
 
 .leftcontainer {
 	flex: 70%;
-	padding: 90px;
+	padding: 60px;
 }
 
 .rightcontainer {
@@ -124,9 +161,16 @@ white-space: pre;
 	}
 
 
+
 .card-deck {
 	text-align: center;
 }
+
+#work {
+
+	padding-bottom: 10px;
+}
+
 
 /*hover on tools*/
 
@@ -176,6 +220,15 @@ white-space: pre;
 	border-bottom: 30px;
 }
 
+#projlabel {
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+footer {
+	font-family: 'Press Start 2P', cursive;
+}
+
 .fa {
   padding: 20px;
   font-size: 60px;
@@ -210,5 +263,4 @@ white-space: pre;
 
 footer {
 	padding-top: 80px;
-
 }
